@@ -52,6 +52,6 @@ for IMAGE in $DOCKER_IMAGE; do
 	done
 done
 
-docker rmi "$TMP_IMAGE_NAME"
+#docker rmi "$TMP_IMAGE_NAME"
 
-rm -rf ./build
+#rm -rf ./build
